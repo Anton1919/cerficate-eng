@@ -1,0 +1,129 @@
+.card {
+    position: relative;
+    height: 350px;
+    min-width: 300px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 5px #8d7f7f;
+    transition: transform .3s ease;
+    cursor: pointer;
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.label {
+    position: absolute;
+    background-color: #282626;
+    padding: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    z-index: 5;
+    text-align: center;
+}
+
+.label span {
+    font-size: 17px;
+    color: white;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.btnWrapper {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    height: 30px;
+    width: 30px;
+}
+
+.btn {
+    height: 100%;
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightgrey;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .3s ease;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.cardLarge {
+    position: relative;
+    height: 450px;
+    min-width: 350px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 5px #8d7f7f;
+    transition: transform .3s ease;
+    cursor: pointer;
+}
+
+.cardLarge:hover {
+    transform: scale(1.1);
+}
+
+.labelLarge {
+    position: absolute;
+    background-color: #282626;
+    padding: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    z-index: 5;
+    text-align: center;
+}
+
+.labelLarge span {
+    font-size: 20px;
+    color: white;
+}
+
+.cardLarge img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.btnWrapperLarge {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    height: 40px;
+    width: 40px;
+}
+
+.btnLarge {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightgrey;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .3s ease;
+}
+
+.btnLarge:hover {
+    background-color: black;
+    color: white;
+}

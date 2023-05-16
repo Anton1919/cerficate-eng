@@ -1,0 +1,19 @@
+.App {
+    margin: 0 auto;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.opacity {
+    opacity: .3;
+}
+
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+

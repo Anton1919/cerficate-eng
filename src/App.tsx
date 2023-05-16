@@ -1,26 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';
+import s from './App.module.css'
+import Card from "./components/Card/Card";
+import {CardsType, defState} from "bll/cards-data";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [openedCard, setOpenedCard] = useState<CardsType | null>(null)
+
+    return (
+        <div className={s.App}>
+            <div className={s.wrapper}>
+                {
+                    !openedCard
+                        ?
+                        <>
+                            {defState.map((c: CardsType) => {
+                                return (
+                                    <Card
+                                        toggleOpenCard={setOpenedCard}
+                                        key={c.id}
+                                        card={c}
+                                    />)
+                            })
+                            }
+                        </>
+                        :
+                        <Card
+                            toggleOpenCard={setOpenedCard}
+                            card={openedCard}
+                            isOpened
+                        />}
+            </div>
+        </div>
+    );
 }
 
 export default App;
