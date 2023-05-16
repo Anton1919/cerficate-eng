@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/cerficate-eng/static/css/main.cbadc4f5.css",
+    "main.js": "/cerficate-eng/static/js/main.c21f16d9.js",
+    "static/js/787.ce74ecd4.chunk.js": "/cerficate-eng/static/js/787.ce74ecd4.chunk.js",
+    "static/media/school.jpg": "/cerficate-eng/static/media/school.826951498802f970ff13.jpg",
+    "static/media/group.jpg": "/cerficate-eng/static/media/group.6de70a9cf2aab69fed86.jpg",
+    "static/media/certificate.jpg": "/cerficate-eng/static/media/certificate.79b85e049eddfad74df8.jpg",
+    "index.html": "/cerficate-eng/index.html",
+    "main.cbadc4f5.css.map": "/cerficate-eng/static/css/main.cbadc4f5.css.map",
+    "main.c21f16d9.js.map": "/cerficate-eng/static/js/main.c21f16d9.js.map",
+    "787.ce74ecd4.chunk.js.map": "/cerficate-eng/static/js/787.ce74ecd4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbadc4f5.css",
+    "static/js/main.c21f16d9.js"
+  ]
+}
